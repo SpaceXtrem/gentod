@@ -6,7 +6,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, Web !</h1>
-  <p>Powered with PyCharm</p>
+  <div class="content">
+    <nav>
+      <a href="{{ url_for('home') }}" class="{% if page == 'home' %}active{% endif %}">Home</a> |
+      <a href="{{ url_for('about') }}" class="{% if page == 'about' %}active{% endif %}">About me</a> |
+      <a href="{{ url_for('contact') }}" class="{% if page == 'contact' %}active{% endif %}">Contact me</a> |
+      <a href="{{ url_for('login') }}" class="{% if page == 'login' %}active{% endif %}">Login</a>
+    </nav>
+    <h1>GENTOD</h1>
+    <h6>Powered with PyCharm and Github</p>
+  </div>
+  <div class="background"></div>
 </body>
 </html>
