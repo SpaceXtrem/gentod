@@ -11,16 +11,19 @@
       <a href="index.html" class="{% if page == 'home' %}active{% endif %}">Home</a> |
       <a href="about.html" class="{% if page == 'about' %}active{% endif %}">About me</a> |
       <a href="contact.html" class="{% if page == 'contact' %}active{% endif %}">Contact me</a> |
-      <a href="login.html" class="{% if page == 'login' %}active{% endif %}">Login</a>
+      <a href="login.html" class="{% if page == 'login' %}active{% endif %}">Login</a> |
+      <a href="sign.html" class="{% if page == 'sign in' %}active{% endif %}">Sign In</a>
     </nav>
     <header>
       <h3 class="title">GENTOD</h3>
     </header>
     <label for="identification"><strong>Identification</strong></label><br>
-    <textarea name="username">Username</textarea>
-    <textarea name="password">Password</textarea><br><br>
-    <label for="message for me"><strong>Message for me</strong></label><br>
-    <textarea name="message">Message</textarea><br><br>
+    <input type="text" id="username" name="username" size="15" placeholder="Username">
+    <input type="password" id="password" name="password" size="15" placeholder="Password">
+    <br><br>
+    <label for="message"><strong>Message</strong></label><br>
+    <textarea id="message" rows="10" cols="35"></textarea>
+    <br><br>
     <input type="submit" value="Send">
   </div>
   <div class="background"></div>
