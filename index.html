@@ -8,13 +8,15 @@
 <body>
   <div class="content">
     <nav>
-      <a href="{{ url_for('home') }}" class="{% if page == 'home' %}active{% endif %}">Home</a> |
-      <a href="{{ url_for('about') }}" class="{% if page == 'about' %}active{% endif %}">About me</a> |
-      <a href="{{ url_for('contact') }}" class="{% if page == 'contact' %}active{% endif %}">Contact me</a> |
-      <a href="{{ url_for('login') }}" class="{% if page == 'login' %}active{% endif %}">Login</a>
+      <a href="index.html" class="{% if page == 'home' %}active{% endif %}">Home</a> |
+      <a href="about.html" class="{% if page == 'about' %}active{% endif %}">About me</a> |
+      <a href="contact.html" class="{% if page == 'contact' %}active{% endif %}">Contact me</a> |
+      <a href="login.html" class="{% if page == 'login' %}active{% endif %}">Login</a>
     </nav>
-    <h1>GENTOD</h1>
-    <h6>Powered with PyCharm and Github</p>
+    <header>
+      <h1 class="title">GENTOD</h1>
+    </header>
+    <h6>Powered with PyCharm and GitHub</h6>
   </div>
   <div class="background"></div>
 </body>
