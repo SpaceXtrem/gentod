@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>GENTOD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="content">
+    <nav>
+      <a href="index.html" class="{% if page == 'home' %}active{% endif %}">Home</a> |
+      <a href="about.html" class="{% if page == 'about' %}active{% endif %}">About me</a> |
+      <a href="contact.html" class="{% if page == 'contact' %}active{% endif %}">Contact me</a> |
+      <a href="login.html" class="{% if page == 'login' %}active{% endif %}">Login</a> |
+      <a href="sign.html" class="{% if page == 'sign in' %}active{% endif %}">Sign In</a>
+    </nav>
+    <header>
+      <h3 class="title">Login</h3>
+    </header>
+    <label for="username"><strong>Username</strong></label><br>
+    <input type="text" name="username" id="username"><br><br>
+    <label for="password"><strong>Password</strong></label><br>
+    <input type="password" name="password" id="password"><br><br>
+    <label for="gender"><strong>Gender</strong></label><br>
+    <input type="radio" name="gender" value="man">Man<br>
+    <input type="radio" name="gender" value="woman">Woman<br><br>
+    <label for="age"><strong>Age</strong></label><br>
+    <input type="number" id="age" name="age" step="1" min="5" max="100" value="15"><br><br>
+    <input type="submit" value="Create an account">
+  </div>
+  <div class="background"></div>
+</body>
+</html>
