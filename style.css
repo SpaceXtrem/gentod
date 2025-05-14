@@ -19,3 +19,13 @@ body {
   color: #bf0000;
   text-align: center;
 }
+
+.information {
+  position: relative;
+  top: 50px;
+  font-family: 'Audiowide', sans-serif;
+  font-size: 1rem;
+  color: #828282;
+  text-align: center;
+  text-shadow: 2px 2px 3px #3b0505;
+}
