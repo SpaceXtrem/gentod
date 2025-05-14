@@ -12,3 +12,10 @@ body {
   text-align: center;
   text-shadow: 4px 4px 5px #540707;
 }
+
+.subtitle {
+  font-family: 'Audiowide', sans-serif;
+  font-size: 2rem;
+  color: #bf0000;
+  text-align: center;
+}
