@@ -45,6 +45,16 @@ nav a.active {
   border-radius: 2rem;
 }
 
+input {
+  height:1.25rem;
+  border: 1px solid #ccc;        /* bord fin gris */
+  border-radius: 0.5rem;
+  background: #ebebeb;
+  font-size:0.75rem;
+  box-shadow: inset 0 2px 2px rgba(0,0,0,0.5); /* effet creusé */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
 .title {
   font-family: 'Audiowide', sans-serif;
   font-size: 5rem;
