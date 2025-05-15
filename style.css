@@ -22,10 +22,10 @@ body {
 
 .information {
   position: relative;
-  top: 50px;
+  top: -60px;
   font-family: 'Audiowide', sans-serif;
-  font-size: 1rem;
-  color: #828282;
+  font-size: 0.7rem;
+  color: #b5b3b3;
   text-align: center;
   text-shadow: 2px 2px 3px #3b0505;
 }
@@ -34,8 +34,7 @@ body {
     position: fixed;
     top: 0; left: 0;
     width: 100vw; height: 100vh;  /* toute la largeur et la hauteur de l'écran */
-    background: linear-gradient(to bottom, #454545, #828282);
+    background: linear-gradient(to bottom, grey, white);
     opacity: 0.8;
     z-index: -1;
 }
-
