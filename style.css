@@ -1,8 +1,48 @@
+header {
+  position: relative;
+  top: 50px;
+}
+
 body {
   font-family: sans-serif;
   background-color: #f0f0f0;
   text-align: center;
   margin-top: 50px;
+}
+
+nav {
+  display: flex;                  /* active Flexbox pour espacer facilement les items */
+  justify-content: space-around;  /* distribue les liens de façon égale */
+  align-items: center;            /* centre verticalement le contenu */
+
+  max-width: 1200px;               /* largeur maximale de la boîte */
+  margin: 1rem auto;              /* marge automatique gauche/droite pour centrer */
+
+  background: grey;
+  padding: 0.25rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* ombre */
+}
+
+/* style des liens <a> à l’intérieur de la nav */
+nav a {
+  font-family: 'Audiowide', serif;
+  font-size: 1rem;
+  color: #cfcfcf;
+  text-decoration: none; /* supprime le soulignement par défaut */
+  padding: 0.5rem 0.75rem; /* espace autour du texte */
+  transition: background 0.2s ease;  /* transition au survol */
+}
+nav a:hover {
+  background: rgba(255,255,255,0.2); /* léger fond clair quand on passe la souris */
+  border-radius: 1rem;               /* coins arrondis pour le survol */
+}
+/* pour la page active */
+nav a.active {
+  color: white;
+  font-weight: bold;
+  border-radius: 2rem;
 }
 
 .title {
@@ -22,7 +62,7 @@ body {
 
 .information {
   position: relative;
-  top: -60px;
+  top: -10px;
   font-family: 'Audiowide', sans-serif;
   font-size: 0.7rem;
   color: #b5b3b3;
