@@ -10,6 +10,12 @@ body {
   margin-top: 50px;
 }
 
+.paragraph {
+  font-size: 0.75rem;
+  font-family: Prosto One;
+  margin-top: 100px;
+}
+
 nav {
   display: flex;                  /* active Flexbox pour espacer facilement les items */
   justify-content: space-around;  /* distribue les liens de façon égale */
