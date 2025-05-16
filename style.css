@@ -21,8 +21,8 @@ nav {
   justify-content: space-around;  /* distribue les liens de façon égale */
   align-items: center;            /* centre verticalement le contenu */
 
-  max-width: 600px;               /* largeur maximale de la boîte */
-  min-width: 500px;
+  max-width: 700px;               /* largeur maximale de la boîte */
+  min-width: 600px;
   margin: 1rem auto;              /* marge automatique gauche/droite pour centrer */
 
   background: grey;
