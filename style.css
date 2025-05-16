@@ -12,7 +12,7 @@ body {
 
 .paragraph {
   font-size: 0.75rem;
-  font-family: Prosto One;
+  font-family: 'Prosto One';
   margin-top: 100px;
 }
 
@@ -94,6 +94,13 @@ textarea {
   color: #b5b3b3;
   text-align: center;
   text-shadow: 2px 2px 3px #3b0505;
+}
+
+.send {
+  background-color: #bf0000;
+  color: "white";
+  font-family: 'Prosto One';
+  align-content: "center";
 }
 
 .background {
