@@ -134,3 +134,38 @@ textarea {
     opacity: 0.8;
     z-index: -1;
 }
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 15px;
+  padding: 10px;
+  margin: 50px;
+  background-color: #999;
+}
+
+/* Scrollbar personnalisé */
+.carousel::-webkit-scrollbar {
+  height: 8px;
+}
+.carousel::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.carousel img {
+  height: 250px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: transform 0.2s;
+}
+
+.carousel img:hover {
+  transform: scale(1.05);
+}
+
+.carousel.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing; /* met une petite main à la place de la souris lorsqu'elle survole une image */
+}
